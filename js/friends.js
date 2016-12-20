@@ -19,6 +19,7 @@ var friends = [
   new Friend("Long", "Ryan", "School", 40.8202, -96.7005),
   new Friend("Maciejewski", "Cameron", "", 40.8081, -96.6997),
   new Friend("Mohrmann", "Joel", "", 40.8081, -96.6997),
+  new Friend("O'Neil", "James", "Pope", 40.874716, -97.104253),
   new Friend("Pasell", "Marcus", "Microsoft (Redmond)", 47.6571606,-122.1521143),
   new Friend("Post", "Aaron", "", 41.2524, -95.9980),
   new Friend("Rogoz", "Hanna", "Cigna", 39.6848529,-104.9436529),
