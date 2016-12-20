@@ -4,7 +4,7 @@ var friends = [
   new Friend("Brown", "Tobin", "Bulu Inc.", 40.8149, -96.702),
   new Friend("Casper", "Mike", "", 41.2524, -95.9980),
   new Friend("Castro", "Heitor", "Microsoft (Fargo)", 46.8772, -96.7898),
-  new Friend("Dahlmam", "Rebecca", "IBM Watson", 44.0583286, -92.5092387),
+  new Friend("Dahlman", "Rebecca", "IBM Watson", 44.0583286, -92.5092387),
   new Friend("Dunne", "Josh", "", 41.2524, -95.9980),
   new Friend("Dyer", "Ashley", "School", 40.8202, -96.7005),
   new Friend("Gallo", "Brendan", "", 41.2524, -95.9980),
