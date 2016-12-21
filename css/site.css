@@ -15,3 +15,6 @@ html, body {
     overflow-y: scroll;
     height: 100%;
 }
+.list-group-item:hover {
+    cursor: pointer;
+}

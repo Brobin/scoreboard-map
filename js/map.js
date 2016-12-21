@@ -38,17 +38,24 @@ function ScoreBoardViewModel(friends) {
 
         map.setView([40.8106, -96.6803], 4);
 
+        var friendLayer = L.layerGroup();
+
         ko.utils.arrayForEach(self.friends(), function(friend){
-            friend.point.addTo(map);
+            friend.point.addTo(friendLayer);
         });
-        
-        L.control.layers(
-            {
-                "Default": street,
-                "Pirate": pirate,
-                "Satellite": satellite,
-            },
-            {collapsed: false}
-        ).addTo(map);
+
+        friendLayer.addTo(map);
+
+        var themes = {
+            "Default": street,
+            "Pirate": pirate,
+            "Satellite": satellite,
+        };
+
+        var maps = {
+            "Friends": friendLayer,
+        };
+
+        L.control.layers(themes, maps, {collapsed: false}).addTo(map);
     }
 }
