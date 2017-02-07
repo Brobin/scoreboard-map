@@ -8,7 +8,7 @@ var friends = [
   new Friend("Dunne", "Josh", "BuilderTrend", 41.217521, -96.097807),
   new Friend("Dyer", "Ashley", "School", 40.8202, -96.7005),
   new Friend("Gallo", "Brendan", "Tenaska", 41.2524, -95.9980),
-  new Friend("Goldberg", "Sydney", "Undecided", 39.7675, -94.8467),
+  new Friend("Goldberg", "Sydney", "Union Pacific", 41.2582078, -95.9362524),
   new Friend("Goodin", "Wyatt", "Microsoft (Redmond)", 47.6571606,-122.1521143),
   new Friend("Gould", "Noah", "School", 40.8202, -96.7005),
   new Friend("Haverland", "Maggie", "Cigna", 39.6848529,-104.9436529),
